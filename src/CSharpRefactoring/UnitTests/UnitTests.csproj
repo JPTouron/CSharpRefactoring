@@ -49,6 +49,14 @@
     <Reference Include="System.Core" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Refactoring_02_CalculatorTests.cs" />
+    <Compile Include="Refactoring_03_CalculatorTests.cs" />
+    <Compile Include="Refactoring_04_CalculatorTests.cs" />
+    <Compile Include="Refactoring_05_CalculatorTests.cs" />
+    <Compile Include="Refactoring_06_CalculatorTests.cs" />
+    <Compile Include="Refactoring_08_CalculatorTests.cs" />
+    <Compile Include="Refactoring_07_CalculatorTests.cs" />
+    <Compile Include="Refactoring_01_CalculatorTests.cs" />
     <Compile Include="Refactoring_00_CalculatorTests.cs" />
     <Compile Include="ManualCalculations.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -58,8 +66,40 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Refactoring_00_Calculator\Refactoring_00_Calculator.csproj">
-      <Project>{4A1D2C9F-A47E-4706-B453-E0F26D4131AE}</Project>
+      <Project>{4a1d2c9f-a47e-4706-b453-e0f26d4131ae}</Project>
       <Name>Refactoring_00_Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Refactoring_01_Calculator\Refactoring_01_Calculator.csproj">
+      <Project>{3da76368-1361-493b-8ec5-4984d96c6d35}</Project>
+      <Name>Refactoring_01_Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Refactoring_02_Calculator\Refactoring_02_Calculator.csproj">
+      <Project>{fc14e4f8-494a-416a-92fb-9e50fcb8468f}</Project>
+      <Name>Refactoring_02_Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Refactoring_03_Calculator\Refactoring_03_Calculator.csproj">
+      <Project>{59a65eb1-7a3b-4ff9-8656-267df9027ed1}</Project>
+      <Name>Refactoring_03_Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Refactoring_04_Calculator\Refactoring_04_Calculator.csproj">
+      <Project>{0b0ae4ba-c1b5-4e32-b1fb-13741924d710}</Project>
+      <Name>Refactoring_04_Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Refactoring_05_Calculator\Refactoring_05_Calculator.csproj">
+      <Project>{510cdb42-a3a1-4bad-9ea7-1c6f3288e5c8}</Project>
+      <Name>Refactoring_05_Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Refactoring_06_Calculator\Refactoring_06_Calculator.csproj">
+      <Project>{040435ab-1e76-44dd-9f7a-6445e3b00a9f}</Project>
+      <Name>Refactoring_06_Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Refactoring_07_Calculator\Refactoring_07_Calculator.csproj">
+      <Project>{12e9a066-bc50-4faa-8aa6-63e539f1b17f}</Project>
+      <Name>Refactoring_07_Calculator</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Refactoring_08_Calculator\Refactoring_08_Calculator.csproj">
+      <Project>{8e2db78f-b568-4591-93f4-beced995a3e6}</Project>
+      <Name>Refactoring_08_Calculator</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
